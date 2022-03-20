@@ -1,0 +1,141 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 5vmax;
+}
+.divicon{
+  position: relative;
+  top: -22px;
+  
+}
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+}
+
+.Wishlist{
+  right: 50px;
+  color: white;
+   position: relative;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  background: #ffdcdc;
+  /* position: reltivae; */
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px 30px;
+  height: 79px;
+ 
+}
+
+nav .icon{
+  font-size: 35px;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+  bottom: 13px;
+  position: relative;
+  text-decoration: none;
+}
+.divicon{
+  text-decoration: none;
+}
+nav .icon >b{
+  color: red;
+}
+nav ol{
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+  position: relative;
+  top: 10px;
+    left: 69px
+}
+nav ol li{
+  margin: 0 2px;
+}
+.Links{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: 0.5s;
+  position: relative;
+    right: 52px;
+}
+
+nav ol li:hover NavLink{
+  background: #fff;
+  color: #0a5071;
+}
+
+
+
+.Links:hover{
+  color: red !important
+  
+
+}
+nav .search_box input{
+  border: none;
+  outline: none;
+  height: 120%;
+  padding: 0 10px;
+  font-size: 20px;
+  width: 350px;
+}
+ nav .search_box SearchIcon{
+  color: #0a5071;
+  font-size: 20px;
+  background: #fff;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+nav .search_box span:hover{
+  color: #fff;
+} 
+
+.NavSearch{
+
+  display: flex;
+  width: 30px;
+  position: relative;
+  right: 144px;
+}
+.NavSearch  > input[type="text"]
+{
+  border: 1px solid lightskyblue;
+}
+
+.NavSearch  > input[type="submit"]
+{
+  border: 1px solid black;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.NavSearch  > input[type="submit"]:hover{
+  background: orange;
+}
+
+
+
+
+

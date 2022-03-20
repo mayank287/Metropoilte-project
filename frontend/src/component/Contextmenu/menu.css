@@ -1,0 +1,75 @@
+.main-div {
+    background: #f9f9f9c7;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+}
+
+.child-div {
+  background-color: 2px solid black;
+  transition: all 0.3s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.child-div:hover{
+    background: #b61b2898;
+     box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+}
+
+.icon-menu {
+  color: #3f13f1;
+}
+
+.con-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 11px;
+}
+
+.hr {
+  color: red;
+}
+
+.main-div-1 {
+  margin-bottom: 18px;
+}
+
+.main-div-2 {
+  position: relative;
+  bottom: 16px;
+}
+
+.login-m {
+  position: relative;
+  left: -6px;
+  top: 5px;
+}
+
+.contact-m {
+    position: relative;
+    bottom: 15px;
+
+}
+
+.home-m {
+  position: relative;
+  bottom: 10px;
+}
+
+
+.about-m {
+  position: relative;
+  bottom: 19px;
+}
+
+.products-m {
+  position: relative;
+  bottom: 16px;
+}
+
+
+.line-div{
+    border: 2px solid red;border: 1px solid #827a7a;
+    width: 100%;
+    position: relative;
+    bottom: 24px;
+}
